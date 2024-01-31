@@ -1,10 +1,30 @@
 /* fonts */
 @font-face {
-    font-family: "";
-    src: url("") format("");
+    font-family: "iransans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/IRANSansWeb\(FaNum\)_Medium.woff2") format("woff2");
 }
+@font-face {
+    font-family: "iransans";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/IRANSansWeb\(FaNum\)_Bold.woff2") format("woff2");
+}
+@font-face {
+    font-family: "iransans";
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/IRANSansWeb\(FaNum\)_Light.woff2") format("woff2");
+}
+
   /* Normalize Css */
-  
+  *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
   html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
