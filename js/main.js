@@ -16,3 +16,14 @@ $('#main-slider').owlCarousel({
         }
     }
 })
+
+window.addEventListener('scroll', function() {
+    var header = document.querySelector('.main_header');
+    var scrollPosition = window.scrollY;
+  
+    if (scrollPosition > 0) {
+      header.style.backgroundColor = 'rgba(25, 23, 22, 0.7)'; /* رنگ دلخواه برای هدر */
+    } else {
+      header.style.backgroundColor = 'transparent'; /* رنگ پیشفرض هدر */
+    }
+  });
