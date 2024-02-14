@@ -18,7 +18,7 @@ $('#main-slider').owlCarousel({
 })
 
 window.addEventListener('scroll', function() {
-    var header = document.querySelector('.main_header');
+    var header = document.querySelector('.sticky');
     var scrollPosition = window.scrollY;
   
     if (scrollPosition > 0) {
