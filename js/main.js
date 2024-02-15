@@ -27,3 +27,30 @@ window.addEventListener('scroll', function() {
       header.style.backgroundColor = 'transparent'; /* رنگ پیشفرض هدر */
     }
   });
+
+  let menu = document.querySelector(".menu")
+  let menuBtn = document.querySelector(".hamburger_menu")
+  let menuBtnIcon = document.querySelector(".hamburger_menu i")
+
+  menuBtn.addEventListener("click", function(){
+    if(menuBtnIcon.classList.contains("fa-bars")){
+      menu.style.right = "-16px"
+      menuBtnIcon.classList = "fa fa-times"
+    } else {
+      menu.style.right = "-300px"
+      menuBtnIcon.classList = "fa fa-bars"
+    }
+  })
+
+  let sub_menu = document.querySelector(".women_sub_menu")
+  let sub_menuBtn = document.querySelector("#women_sub_menu")
+
+  sub_menuBtn.addEventListener("click", function(){
+    if(sub_menu.classList.contains("women_sub_menu")){
+      menu.style.right = "-16px"
+    } else {
+      menu.style.right = "-300px"
+    }
+  })
+
+  

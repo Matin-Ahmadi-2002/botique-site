@@ -396,12 +396,16 @@
 }
 .details {
   font-size: 18px;
+  display: flex;
+  align-items: center;
 }
 .details span:nth-child(2) {
   margin: 0 15px;
 }
-.details span{
+.details span {
   color: #fff;
+  display: flex;
+  align-items: center;
 }
 .details span i{
   color: #fff;
@@ -414,6 +418,9 @@
 }
 .details span i:hover{
   color: var(--main-color);
+}
+.hamburger_menu{
+  display: none;
 }
 
 /* slider section */

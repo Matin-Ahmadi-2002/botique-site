@@ -1,8 +1,99 @@
 @media (max-width:1200px){
-
+    .explains {
+        right: 1rem;
+        max-width: 22rem;
+    }   
+    .women_sub_menu {
+        right: 19rem;
+    } 
+    .men_sub_menu {
+        right: 24rem;
+    }
+    .shoes_sub_menu {
+        right: 29rem;
+    }
+    .accessory_sub_menu {
+        right: 35rem;
+    }
+    .pages_sub_menu {
+        right: 40rem;
+        width: 32%;
+    }
+    .explains h3 {
+        font-size: 60px;
+        line-height: 80px;
+        margin: 10px 0 55px 0;
+    }
+    .main_header {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+    .child5 {
+        top: 19rem;
+    }
 }
 @media (max-width:992px){
-
+    .main_header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .hamburger_menu {
+        display: block;
+        margin-right: 30px;
+        font-size: 30px;
+    }
+    .main_header .menu {
+        display: flex;
+        gap: 50px;
+        flex-direction: column;
+        position: absolute;
+        right: -300px;
+        top: -9px;
+        background: rgba(0, 0, 0, 0.9);
+        width: 30%;
+        padding: 30px 40px;
+        height: 100vh;
+        transition: all 400ms ease-in-out;
+        -webkit-transition: all 400ms ease-in-out;
+        -moz-transition: all 400ms ease-in-out;
+        -ms-transition: all 400ms ease-in-out;
+        -o-transition: all 400ms ease-in-out;
+    }
+    .logo img {
+        max-width: 125px;
+        max-height: 125px;
+    }
+    .main_slider {
+        margin-top: -9rem;
+    }
+    .menu .sub_menu{
+        display: none;
+    }
+    .women_sub_menu ,.men_sub_menu , .shoes_sub_menu, .accessory_sub_menu, .pages_sub_menu {
+        position: absolute;
+        background: rgba(25, 23, 22, 0.7);
+        top: 15rem;
+        left: 0 !important;
+        width: 30%;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 550ms ease-in-out;
+        z-index: 999;
+        padding: 30px 45px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        -webkit-transition: all 550ms ease-in-out;
+        -moz-transition: all 550ms ease-in-out;
+        -ms-transition: all 550ms ease-in-out;
+        -o-transition: all 550ms ease-in-out;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+      }
 }
 @media (max-width:768px){
 
