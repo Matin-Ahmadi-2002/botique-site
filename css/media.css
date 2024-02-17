@@ -48,10 +48,10 @@
         gap: 50px;
         flex-direction: column;
         position: absolute;
-        right: -300px;
+        right: -400px;
         top: -9px;
         background: rgba(0, 0, 0, 0.9);
-        width: 30%;
+        width: 20rem;
         padding: 30px 40px;
         height: 100vh;
         transition: all 400ms ease-in-out;
@@ -112,11 +112,6 @@
     .women_sub_menu ,.men_sub_menu , .shoes_sub_menu, .accessory_sub_menu, .pages_sub_menu {
         display: none;
     }
-    .main_header .menu {
-        top: 0px;
-        width: 20rem;
-        right: -400px;
-    }
 }
 @media (max-width:768px){
     .topbar {
@@ -138,6 +133,9 @@
         -moz-border-radius: 0;
         -ms-border-radius: 0;
         -o-border-radius: 0;
+    }
+    .main_header .menu {
+        top: 0px;
     }
     .explains {
         top: 6rem;
