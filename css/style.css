@@ -245,6 +245,7 @@
   :root{
     --main-color: #ff4242;
     --text-color: #8d9495;
+    --text-color2: #5b5b5b;
   }
 .topbar{
   display: flex;
@@ -476,4 +477,123 @@
 }
 .slider_img .explains a:hover {
   background: #000;
+}
+
+/* popular categories style */
+.popular_categories{
+  padding: 6rem 0 10rem;
+}
+.head_popular{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+.head_popular h3 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.head_popular p {
+  width: 40%;
+  line-height: 25px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+.categories {
+  display: grid;
+  grid-template: 1fr 1fr/1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+.accessory_collection{
+  grid-column: 5 / 4;
+}
+.women_collection{
+  grid-column: 2 / 4;
+  grid-row: 1 /2;
+  position: relative;
+}
+.women_collection h5 a {
+  position: absolute;
+  left: 2rem;
+  bottom: 3rem;
+  color: var(--text-color2);
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  width: 15%;
+}
+.women_collection h5:hover a, .men_collection h5:hover a, .free_send h5:hover a, .new_product_details .new_produt_eplain:hover a{
+  color: var(--main-color);
+}
+.new_products{
+  grid-row: 1 / 3;
+  position: relative;
+}
+.new_products .new_product_details {
+  position: absolute;
+  right: 3rem;
+  bottom: 10rem;
+}
+.new_product_details a{
+  color: var(--text-color2);
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.new_produt_eplain{
+  margin-bottom: 35px;
+}
+.new_product_details .btn {
+  font-size: 18px;
+  border: 1px solid;
+  padding: 10px 25px;
+  transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+}
+.new_product_details .btn:hover{
+  background-color: var(--main-color);
+  color: #fff;
+  border: 0;
+}
+.men_collection{
+  grid-column: 5/3;
+  position: relative;
+}
+.men_collection h5 a {
+  position: absolute;
+  right: 3rem;
+  bottom: 6rem;
+  color: var(--text-color2);
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  width: 15%;
+}
+.free_send{
+  grid-column: 3 /2;
+  grid-row: 2/3;
+  position: relative;
+}
+.free_send h5 a {
+  position: absolute;
+  left: 3rem;
+  top: 3rem;
+  color: var(--text-color2);
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  width: 15%;
+}
+.categories img{
+  height: 367px;
+  width: 100%;
+  object-fit: cover;
+}
+.new_products img{
+  height: 100% !important;
 }
