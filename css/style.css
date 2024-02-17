@@ -272,6 +272,11 @@
   justify-content: flex-start;
   gap: 2rem;
 }
+.topbar_right .us{
+  display: flex;
+  gap: 30px;
+
+}
 .topbar_left span {
   color: var(--text-color);
   transition: all 400ms ease-in-out;

@@ -37,20 +37,20 @@ window.addEventListener('scroll', function() {
       menu.style.right = "-16px"
       menuBtnIcon.classList = "fa fa-times"
     } else {
-      menu.style.right = "-300px"
+      menu.style.right = "-400px"
       menuBtnIcon.classList = "fa fa-bars"
     }
   })
 
-  let sub_menu = document.querySelector(".women_sub_menu")
-  let sub_menuBtn = document.querySelector("#women_sub_menu")
+  // let sub_menu = document.querySelector(".women_sub_menu")
+  // let sub_menuBtn = document.querySelector("#women_sub_menu")
 
-  sub_menuBtn.addEventListener("click", function(){
-    if(sub_menu.classList.contains("women_sub_menu")){
-      menu.style.right = "-16px"
-    } else {
-      menu.style.right = "-300px"
-    }
-  })
+  // sub_menuBtn.addEventListener("click", function(){
+  //   if(sub_menu.classList.contains("women_sub_menu")){
+  //     menu.style.right = "-16px"
+  //   } else {
+  //     menu.style.right = "-400px"
+  //   }
+  // })
 
   
