@@ -508,6 +508,17 @@
 }
 .accessory_collection{
   grid-column: 5 / 4;
+  position: relative;
+}
+.accessory_collection h5 a {
+  position: absolute;
+  left: 4rem;
+  bottom: 3rem;
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: 500;
+  width: 15%;
 }
 .women_collection{
   grid-column: 2 / 4;
@@ -518,14 +529,11 @@
   position: absolute;
   left: 2rem;
   bottom: 3rem;
-  color: var(--text-color2);
+  color: #fff;
   font-size: 25px;
   cursor: pointer;
   font-weight: 500;
   width: 15%;
-}
-.women_collection h5:hover a, .men_collection h5:hover a, .free_send h5:hover a, .new_product_details .new_produt_eplain:hover a{
-  color: var(--main-color);
 }
 .new_products{
   grid-row: 1 / 3;
@@ -568,7 +576,7 @@
   position: absolute;
   right: 3rem;
   bottom: 6rem;
-  color: var(--text-color2);
+  color: #fff;
   font-size: 25px;
   cursor: pointer;
   font-weight: 500;
@@ -588,6 +596,16 @@
   cursor: pointer;
   font-weight: 500;
   width: 15%;
+}
+.women_collection h5 a, .men_collection h5 a, .free_send h5 a, .new_product_details .new_produt_eplain a,.accessory_collection h5 a{
+  transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+}
+.women_collection h5:hover a, .men_collection h5:hover a, .free_send h5:hover a, .new_product_details .new_produt_eplain:hover a,.accessory_collection h5:hover a {
+  color: var(--main-color);
 }
 .categories img{
   height: 367px;
