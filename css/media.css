@@ -34,6 +34,12 @@
     .new_product_details .btn {
         padding: 10px 15px;
     }
+    .content .item a {
+        font-size: 20px;
+    }
+    .content .item .shopping_btn {
+        font-size: 14px;
+    }
 }
 @media (max-width:992px){
     .main_header {
@@ -207,6 +213,12 @@
         width: 100%;
         font-size: 14px;
     }
+    .content .item {
+        text-align: center;
+    }
+    .bestselling_head_right h5 {
+        font-size: 20px;
+    }
 }
 @media (max-width:450px){
     span.top_price{
@@ -240,5 +252,11 @@
     }
     .new_products .new_product_details, .men_collection h5 a {
         right: 2rem;
+    }
+    .bestselling_head {
+        margin-bottom: 40px;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
     }
 }

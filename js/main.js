@@ -21,13 +21,16 @@ $('#best_selling_slider').owlCarousel({
     margin:10,
     nav:false,
     dots:false,
-    autoplay:false,
+    autoplay:true,
     responsive:{
         0:{
             items:1
         },
-        600:{
+        576:{
             items:2
+        },
+        768:{
+            items:3
         },
         1000:{
             items:4
