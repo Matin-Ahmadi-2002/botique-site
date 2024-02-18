@@ -435,7 +435,6 @@
   margin-top: -10rem;
 }
 .slider_img {
-  height: 1000px;
   object-fit: cover;
   position: relative;
 }
@@ -562,11 +561,16 @@
   -moz-transition: all 250ms ease-in-out;
   -ms-transition: all 250ms ease-in-out;
   -o-transition: all 250ms ease-in-out;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 .new_product_details .btn:hover{
   background-color: var(--main-color);
   color: #fff;
-  border: 0;
+  border-color: var(--main-color);
 }
 .men_collection{
   grid-column: 5/3;
