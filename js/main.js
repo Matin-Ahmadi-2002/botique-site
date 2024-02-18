@@ -3,7 +3,7 @@ $('#main-slider').owlCarousel({
     margin:10,
     nav:false,
     dots:false,
-    autoplay:false,
+    autoplay:true,
     responsive:{
         0:{
             items:1
@@ -16,6 +16,25 @@ $('#main-slider').owlCarousel({
         }
     }
 })
+$('#best_selling_slider').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    autoplay:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+
 
 window.addEventListener('scroll', function() {
     var header = document.querySelector('.sticky');
@@ -53,4 +72,3 @@ window.addEventListener('scroll', function() {
   //   }
   // })
 
-  
