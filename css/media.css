@@ -289,6 +289,12 @@
     .banner_details a {
         margin: 1rem 3rem 0 0;
     }
+    .discounts_head_right h5 {
+        font-size: 20px;
+    }
+    .discounts .content img {
+        height: 520px;
+    }
 }
 @media (max-width:450px){
     span.top_price{
@@ -340,5 +346,11 @@
     .banner_details {
         top: 1rem;
         left: 0.8rem;
+    }
+    .discounts_head {
+        margin-bottom: 40px;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
     }
 }
