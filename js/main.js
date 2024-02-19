@@ -37,6 +37,27 @@ $('#best_selling_slider').owlCarousel({
         }
     }
 })
+$('#discount_slider').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    autoplay:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        576:{
+            items:2
+        },
+        768:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
 
 
 window.addEventListener('scroll', function() {

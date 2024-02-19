@@ -693,7 +693,7 @@
 
 /* two banner style */
 .two_banner {
-  margin: 5rem 0 5rem;
+  margin: 10rem 0 10rem;
 }
 .banners {
   display: flex;
@@ -737,4 +737,62 @@
 .left_banner img, .right_banner img {
   border-radius: 5px;
   box-shadow: 5px 10px 15px #8c8b8b;
+}
+
+/* discount slider style */
+.discounts_head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.discounts_head_right {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+.discounts_head_right h5 {
+  font-size: 22px;
+  font-weight: 500;
+}
+.discounts_head_left a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #000;
+  transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+}
+.discounts_head_left a:hover{
+  color: var(--main-color);
+}
+.discounts_head_left svg   {
+  width: 25px;
+}
+.discounts .content img {
+  height: 390px;
+}
+.discounts .content .item{
+  position: relative;
+}
+.discounts .content span.off {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.8rem;
+  color: #fff;
+  background: var(--main-color);
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+.discounts .content .price del {
+  font-size: 14px;
+  color: var(--text-color);
+}
+.discounts .content .price span {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-color2);
 }
