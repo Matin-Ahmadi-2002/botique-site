@@ -804,9 +804,14 @@
 .three_banner .banners {
   display: flex;
   gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
 }
-.three_banner .right_banner ,.three_banner .middle_banner, .three_banner .left_banner{
+.three_banner .right_banner, .three_banner .middle_banner, .three_banner .left_banner {
   position: relative;
+  width: 409px;
+  height: 183px;
 }
 .three_banner .banner_details {
   position: absolute;
