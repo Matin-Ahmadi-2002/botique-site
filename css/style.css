@@ -796,3 +796,53 @@
   font-weight: 500;
   color: var(--text-color2);
 }
+
+/* three banner style */
+.three_banner {
+  margin: 10rem 0 10rem;
+}
+.three_banner .banners {
+  display: flex;
+  gap: 30px;
+}
+.three_banner .right_banner ,.three_banner .middle_banner, .three_banner .left_banner{
+  position: relative;
+}
+.three_banner .banner_details {
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.three_banner .banner_details span {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--main-color);
+}
+.three_banner .banner_details a.title {
+  color: #000;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0.5rem 0 1rem;
+}
+.three_banner .banner_details p {
+  color: var(--text-color2);
+  margin-bottom: 1rem;
+}
+.three_banner .banner_details a {
+  margin-top: 2rem;
+  color: #000;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.three_banner .banner_details a svg{
+  width: 20px;
+}
+.three_banner .left_banner img, .three_banner .middle_banner img, .three_banner .right_banner img{
+  border-radius: 5px;
+  box-shadow: 5px 10px 15px #8c8b8b;
+}
