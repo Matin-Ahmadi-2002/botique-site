@@ -910,6 +910,7 @@
   -ms-transition: all 150ms ease-in-out;
   -o-transition: all 150ms ease-in-out;
   cursor: text;
+  text-align: justify;
 }
 .comment:hover p {
   border-color: var(--main-color);

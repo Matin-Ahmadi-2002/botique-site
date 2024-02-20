@@ -40,6 +40,12 @@
     .content .item .shopping_btn {
         font-size: 14px;
     }
+    .comment_head p {
+        width: 50%;
+    }
+    .owl-theme .owl-nav {
+        margin-top: 2rem;
+    }
 }
 @media (max-width:1170px){
     .banner_details {
@@ -144,6 +150,9 @@
     .new_product_details .btn {
         font-size: 16px;
     }
+    .comment p {
+        line-height: 24px;
+    }
 }
 @media (max-width:928px){
     .banners {
@@ -234,6 +243,9 @@
     }
     .banner_details a {
         margin: 1rem 0 0 0;
+    }
+    .comment_head p {
+        width: 75%;
     }
 }   
 @media (max-width:576px){
@@ -376,5 +388,16 @@
     .three_banner .middle_banner img {
         height: 204px;
         object-fit: cover;
+    }
+    .comment_head h5 {
+        line-height: 45px;
+    }
+    .comment_head p {
+        width: 100%;
+        line-height: 22px;
+        font-size: 14px;
+    }
+    .comment p {
+        font-size: 14px;
     }
 }

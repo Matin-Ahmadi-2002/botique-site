@@ -68,13 +68,10 @@ $('#comment_slider').owlCarousel({
         0:{
             items:1
         },
-        576:{
-            items:2
-        },
         768:{
             items:2
         },
-        1000:{
+        1170:{
             items:3
         }
     }
