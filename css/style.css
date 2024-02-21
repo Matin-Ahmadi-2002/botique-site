@@ -984,8 +984,22 @@
   direction: rtl;
   padding: 1.5rem;
 }
+.blog_content .blog_img{
+  overflow: hidden;
+  width: 100%;
+}
+.blog_content .blog_img a {
+  display: block;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
 .blog_content .blog_img img{
-  max-width: fit-content;
+  max-width: none;
+  width: calc(100% + 30px);
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 .blog_content .content a.tag {
   font-weight: 500;
