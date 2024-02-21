@@ -55,7 +55,6 @@
   body {
     margin: 0;
     background-color: #f8f9f9;
-    height: 10000px;
   }
   
   main {
@@ -1045,4 +1044,176 @@
   gap: 10px;
   color: var(--text-color);
   font-size: 14px;
+}
+
+/* footer style */
+footer {
+  background-color: #161619;
+  color: #fff;
+  padding-top: 5rem;
+}
+.registration {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #3c3c3d;
+  padding-bottom: 5rem;
+}
+.register_explain {
+  width: 50%;
+}
+.register_explain h5 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 1rem;
+}
+.register_explain p {
+  width: 77%;
+  line-height: 24px;
+  color: var(--text-color);
+}
+.register_email input[type=email] {
+  outline: none;
+  background: inherit;
+  border: 1px solid var(--text-color);
+  padding: 16px 10px 16px 224px;
+}
+.register_email button {
+  padding: 16px 70px;
+  background: var(--main-color);
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+}
+.register_email button:hover {
+  background: #fff;
+  color: var(--main-color)
+}
+.information {
+  padding: 4rem 0px;
+  border-bottom: 1px solid #3c3c3d;
+  display: flex;
+  gap: 10rem;
+  align-items: end;
+}
+.footer_logo img {
+  border-radius: 60%;
+  overflow: hidden;
+  -webkit-border-radius: 60%;
+  -moz-border-radius: 60%;
+  -ms-border-radius: 60%;
+  -o-border-radius: 60%;
+  max-width: 148px;
+  max-height: 148px;
+}
+.follow_us span{
+  margin-top: 2rem;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 500;
+}
+.follow_us p {
+  margin: 0.5rem 0 2rem;
+  color: var(--text-color);
+}
+.socail {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.footer_icon {
+  border: 1px solid var(--text-color);
+  border-radius: 50%;
+  padding: 12px 12px;
+  color: var(--text-color);
+  font-size: 14px;
+  transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+}
+.instagram:hover{
+  background-color: #d62976;
+  color: #fff;
+  border: 1px solid #d62976;
+}
+.pinterest:hover{
+ background-color: #bd081c;
+  color: #fff;
+  border: 1px solid #bd081c;
+}
+.linkedin:hover{
+ background-color: #0077b5;
+  color: #fff;
+  border: 1px solid #0077b5;
+}
+.telegram:hover{
+ background-color: #08c;
+  color: #fff;
+  border: 1px solid #08c;
+}
+.twitter:hover{
+ background-color: #1da1f2;
+  color: #fff;
+  border: 1px solid #1da1f2;
+}
+.about_us h4, .our_store h4, .support h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.about_us ul li a, .our_store ul li a, .support ul li a{
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+}
+.about_us ul li a:hover, .our_store ul li a:hover, .support ul li a:hover{
+  color: var(--main-color);
+  transform: translate(-10px);
+  -webkit-transform: translate(-10px);
+  -moz-transform: translate(-10px);
+  -ms-transform: translate(-10px);
+  -o-transform: translate(-10px);
+}
+.copyright{
+  display: flex;
+  justify-content: space-between;
+  line-height: 60px;
+}
+.privecy_rules a{
+  color: var(--text-color);
+  transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+}
+.privecy_rules a:hover{
+  color: var(--main-color);
+}
+.copy p{
+  color: var(--text-color2);
+}
+.copy p a{
+  color: var(--text-color2);
+  transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+}
+.copy p a:hover{
+  color: var(--main-color);
 }
