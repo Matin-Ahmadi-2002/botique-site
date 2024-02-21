@@ -1025,6 +1025,14 @@
   color: #000;
   font-weight: 500;
   font-size: 24px;
+  transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+}
+.blog_content .content h5:hover a {
+  color: var(--main-color);
 }
 .blog_content .content p {
   line-height: 26px;
