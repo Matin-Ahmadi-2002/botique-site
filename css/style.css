@@ -55,6 +55,7 @@
   body {
     margin: 0;
     background-color: #f8f9f9;
+    overflow-x: hidden;
   }
   
   main {

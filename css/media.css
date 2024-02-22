@@ -124,17 +124,15 @@
     .menu .sub_menu{
         display: none;
     }
-    .women_sub_menu ,.men_sub_menu , .shoes_sub_menu, .accessory_sub_menu, .pages_sub_menu {
+    .women_sub_menu, .men_sub_menu, .shoes_sub_menu, .accessory_sub_menu, .pages_sub_menu {
         position: absolute;
         background: rgba(25, 23, 22, 0.7);
-        top: 15rem;
-        left: 0 !important;
-        width: 30%;
-        opacity: 0;
-        visibility: hidden;
+        top: 1rem;
+        right: 0 !important;
+        width: 65%;
         transition: all 550ms ease-in-out;
         z-index: 999;
-        padding: 30px 45px;
+        padding: 30px 20px;
         border-radius: 10px;
         -webkit-border-radius: 10px;
         -moz-border-radius: 10px;
@@ -145,8 +143,15 @@
         -ms-transition: all 550ms ease-in-out;
         -o-transition: all 550ms ease-in-out;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
+        grid-template-columns: 1fr;
+        gap: 25px;
+        text-align: center;
+    }
+    .main_header ul li:hover ul{
+        opacity: 1;
+        visibility: visible;
+        right: 20.5rem !important;
+        top: 1rem !important;
     }
     .explains h3 {
         font-size: 45px;
@@ -162,9 +167,6 @@
     .child5 {
         top: 15rem;
         max-width: 17rem;
-    }
-    .women_sub_menu ,.men_sub_menu , .shoes_sub_menu, .accessory_sub_menu, .pages_sub_menu {
-        display: none;
     }
     .head_popular p {
         width: 60%;
@@ -420,6 +422,17 @@
     }
     .register_email button {
         width: 100%;
+    }
+    .women_sub_menu, .men_sub_menu, .shoes_sub_menu, .accessory_sub_menu, .pages_sub_menu {
+        background: rgba(25, 23, 22, 0.7);
+        width: 50%;
+        padding: 30px 10px;
+    }
+    .main_header ul li:hover ul {
+        opacity: 1;
+        visibility: visible;
+        right: 50% !important;
+        top: 1rem !important;
     }
 }
 @media (max-width:450px){
