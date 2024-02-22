@@ -175,7 +175,7 @@
             <div class="details">
                 <span><i class="fa fa-search"></i></span>
                 <span  onclick="openPopup()"><i class="fa fa-user"></i></span>
-                <span><i class="fa fa-cart-shopping"></i><span class="top_price">0 تومان</span></span>
+                <span><i class="fa fa-cart-shopping" onclick="toggleSidebar()"></i><span class="top_price">0 تومان</span></span>
                 <div class="hamburger_menu">
                     <span><i class="fa fa-bars"></i></span>
                 </div>
@@ -183,7 +183,7 @@
         </div>
         <div id="myPopup" class="popup">
             <form class="form" action="#">
-                <span onclick="closePopup()" class="close" style="cursor: pointer;">&times;</span>
+                <span onclick="closePopup()" class="close">&times;</span>
                 <h5>وارد شوید</h5>
     
                 <label>نام کاربری</label>
@@ -196,7 +196,11 @@
                 
                 <p>حساب کاربری ندارید؟ <a href="#">ثبت نام کنید</a></p>
             </form>
-          </div>
+        </div>
+        <div class="shopping_card" id="shopping_card">
+            <span class="close_shoppingcard" onclick="toggleSidebar()">×</span>
+            <p>سبد خرید خالی است</p>
+        </div>
     </header>
 
     <main>
