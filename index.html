@@ -174,13 +174,29 @@
             </nav>
             <div class="details">
                 <span><i class="fa fa-search"></i></span>
-                <span><i class="fa fa-user"></i></span>
+                <span  onclick="openPopup()"><i class="fa fa-user"></i></span>
                 <span><i class="fa fa-cart-shopping"></i><span class="top_price">0 تومان</span></span>
                 <div class="hamburger_menu">
                     <span><i class="fa fa-bars"></i></span>
                 </div>
             </div>
         </div>
+        <div id="myPopup" class="popup">
+            <form class="form" action="#">
+                <span onclick="closePopup()" class="close" style="cursor: pointer;">&times;</span>
+                <h5>وارد شوید</h5>
+    
+                <label>نام کاربری</label>
+                <input type="text" name="username" placeholder="نام کاربری را وارد کنید" required>
+    
+                <label>پسورد</label>
+                <input type="password" name="password" placeholder="رمز عبور" required>
+    
+                <button type="submit">ورود</button>
+                
+                <p>حساب کاربری ندارید؟ <a href="#">ثبت نام کنید</a></p>
+            </form>
+          </div>
     </header>
 
     <main>
