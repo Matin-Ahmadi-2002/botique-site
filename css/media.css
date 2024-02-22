@@ -49,6 +49,28 @@
     .blog_head p {
         width: 50%;
     }
+    .register_explain {
+        width: 47%;
+    }
+    .register_explain p {
+        width: 95%;
+    }
+    .register_email input[type=email] {
+        padding: 16px 10px 16px 170px;
+    }
+    .register_email button {
+        padding: 15px 30px;
+    }
+    .information {
+        display: grid;
+        gap: 10rem;
+        align-items: center;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .container_footer{
+        padding: 0 45px;
+      }
+   
 }
 @media (max-width:1170px){
     .banner_details {
@@ -173,6 +195,32 @@
     .blog_content .content p {
         margin-bottom: 2rem;
     }
+    .container_footer {
+        padding: 0px 120px;
+    }
+    .registration {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .register_explain p {
+        width: 100%;
+    }
+    .socail {
+        gap: 14px;
+    }
+    .register_explain {
+        width: 100%;
+        text-align: center;
+    }
+    .register_email button {
+        padding: 15px 45px;
+    }
+    .register_email input[type=email] {
+        padding: 16px 10px 16px 190px;
+    }
+    .privecy_rules, .copy{
+        font-size: 14px;
+    }
 }
 @media (max-width:928px){
     .banners {
@@ -280,6 +328,19 @@
     .blog_contents {
         gap: 50px;
     }
+    .container_footer {
+        max-width: 576px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .information {
+        gap: 2rem;
+        grid-template-columns: 1fr;
+    }
+    .copyright {
+        flex-direction: column;
+        text-align: center;
+    }
 }   
 @media (max-width:576px){
     .topbar_right {
@@ -352,6 +413,13 @@
     }
     .blog_content .content h5 {
         margin: 1rem 0;
+    }
+    .register_email input[type=email] {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .register_email button {
+        width: 100%;
     }
 }
 @media (max-width:450px){

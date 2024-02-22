@@ -1052,6 +1052,11 @@ footer {
   color: #fff;
   padding-top: 5rem;
 }
+.container_footer{
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 .registration {
   display: flex;
   align-items: center;
@@ -1077,9 +1082,13 @@ footer {
   background: inherit;
   border: 1px solid var(--text-color);
   padding: 16px 10px 16px 224px;
+  color: var(--text-color);
+}
+.register_email input[type=email]::placeholder{
+  color: var(--text-color);
 }
 .register_email button {
-  padding: 16px 70px;
+  padding: 16px 55px;
   background: var(--main-color);
   color: #fff;
   font-weight: 500;
